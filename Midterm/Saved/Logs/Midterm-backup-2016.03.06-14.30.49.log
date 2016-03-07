@@ -1,0 +1,1307 @@
+﻿[2016.03.05-19.58.41:689][  0]Log file open, 03/05/16 13:58:41
+[2016.03.05-19.58.41:689][  0]LogInit:Display: Running engine for game: Midterm
+[2016.03.05-19.58.41:689][  0]LogInit:Display: RandInit(2038800927) SRandInit(2038800928).
+[2016.03.05-19.58.41:689][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.05-19.58.41:689][  0]LogStats: Stats thread started
+[2016.03.05-19.58.41:689][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.03.05-19.58.41:689][  0]LogInit: API Version: 2579680
+[2016.03.05-19.58.41:689][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.03.05-19.58.41:689][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.05-19.58.41:689][  0]LogInit: Build Configuration: Development
+[2016.03.05-19.58.41:689][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.03.05-19.58.41:689][  0]LogInit: Command line: -EpicPortal 
+[2016.03.05-19.58.41:689][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.03.05-19.58.41:689][  0]LogInit: Rocket: 1
+[2016.03.05-19.58.41:707][  0]LogInit: Using libcurl 7.41.0
+[2016.03.05-19.58.41:707][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.05-19.58.41:707][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.05-19.58.41:707][  0]LogInit:  - other features:
+[2016.03.05-19.58.41:707][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.05-19.58.41:707][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.05-19.58.41:707][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.05-19.58.41:707][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.05-19.58.41:707][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.05-19.58.41:707][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.05-19.58.41:707][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.05-19.58.41:707][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.05-19.58.41:707][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.05-19.58.41:707][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.05-19.58.41:722][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.03.05-19.58.41:740][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.05-19.58.41:749][  0]LogInit: Object subsystem initialized
+[2016.03.05-19.58.41:750][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.03.05-19.58.41:750][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.05-19.58.41:750][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.03.05-19.58.41:750][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.05-19.58.41:750][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.03.05-19.58.41:750][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.05-19.58.41:750][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.05-19.58.41:750][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.05-19.58.41:776][  0]LogInit: Computer: DESKTOP-6FVLQB9
+[2016.03.05-19.58.41:776][  0]LogInit: User: gebha
+[2016.03.05-19.58.41:776][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.05-19.58.41:776][  0]LogInit: High frequency timer resolution =3.919377 MHz
+[2016.03.05-19.58.41:776][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.05-19.58.41:776][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.05-19.58.41:776][  0]LogMemory: Process Physical Memory: 49.51 MB used, 49.51 MB peak
+[2016.03.05-19.58.41:776][  0]LogMemory: Process Virtual Memory: 22.62 MB used, 22.62 MB peak
+[2016.03.05-19.58.41:776][  0]LogMemory: Physical Memory: 5392.22 MB used, 16284.17 MB total
+[2016.03.05-19.58.41:776][  0]LogMemory: Virtual Memory: 311.09 MB used, 134217728.00 MB total
+[2016.03.05-19.58.41:815][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.03.05-19.58.42:026][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.03.05-19.58.42:503][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2016.03.05-19.58.42:503][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 2 output[s]
+[2016.03.05-19.58.42:505][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.05-19.58.42:505][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 0 output[s]
+[2016.03.05-19.58.42:505][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.05-19.58.42:510][  0]LogD3D11RHI: InitD3DDevice
+[2016.03.05-19.58.42:510][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.05-19.58.42:510][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.05-19.58.42:524][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.05-19.58.42:540][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.05-19.58.43:352][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.03.05-19.58.43:370][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.05-19.58.43:388][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.05-19.58.43:406][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.05-19.58.43:428][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.05-19.58.43:444][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.05-19.58.43:460][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.05-19.58.43:476][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.05-19.58.43:492][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.05-19.58.43:509][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.05-19.58.43:525][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.05-19.58.43:541][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.05-19.58.43:601][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.05-19.58.43:617][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.05-19.58.43:632][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.05-19.58.43:651][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.05-19.58.43:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.05-19.58.43:916][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.05-19.58.43:996][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/gebha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.03.05-19.58.43:996][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/gebha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.03.05-19.58.43:996][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.05-19.58.43:996][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.05-19.58.43:996][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.05-19.58.43:996][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.05-19.58.44:141][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.05-19.58.44:153][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gebha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.05-19.58.44:460][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.05-19.58.44:550][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.03.05-19.58.44:551][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.03.05-19.58.44:585][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.05-19.58.44:585][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.05-19.58.44:983][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.05-19.58.46:245][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.05-19.58.46:705][  0]SourceControl: Info Source control is disabled
+[2016.03.05-19.58.46:706][  0]SourceControl: Info Source control is disabled
+[2016.03.05-19.58.46:719][  0]SourceControl: Info Source control is disabled
+[2016.03.05-19.58.46:732][  0]SourceControl: Info Source control is disabled
+[2016.03.05-19.58.47:053][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.03.05-19.58.47:053][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.03.05-19.58.47:139][  0]LogEngine: Initializing Engine...
+[2016.03.05-19.58.47:142][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.03.05-19.58.47:143][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.03.05-19.58.47:333][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.05-19.58.47:340][  0]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-19.58.47:350][  0]LogInit: FAudioDevice initialized.
+[2016.03.05-19.58.47:391][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/gebha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.03.05-19.58.47:404][  0]LogInit: Texture streaming: Disabled
+[2016.03.05-19.58.47:436][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.05-19.58.47:436][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.03.05-19.58.47:436][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ec9719814f2f093c09b1038d4794e572|a25c9f644e7743eaae18bd820c9e55cd|daf88ebd-6607-4323-a36d-ccb4aa163afc
+[2016.03.05-19.58.47:436][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.05-19.58.47:480][  0]LogInit: Transaction tracking system initialized
+[2016.03.05-19.58.47:671][  0]BlueprintLog: New page: Editor Load
+[2016.03.05-19.58.47:719][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2016.03.05-19.58.47:719][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.03.05-19.58.48:681][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.03.05-19.58.48:681][  0]LogConsoleResponse:Display: 
+[2016.03.05-19.58.48:819][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.05-19.58.49:089][  0]SourceControl: Info Source control is disabled
+[2016.03.05-19.58.49:089][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Content/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.05-19.58.49:106][  0]LightingResults: New page: Lighting Build
+[2016.03.05-19.58.49:126][  0]MapCheck: New page: Map Check
+[2016.03.05-19.58.49:126][  0]LightingResults: New page: Lighting Build
+[2016.03.05-19.58.49:141][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A78465300
+[2016.03.05-19.58.51:147][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.05-19.58.51:147][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.05-19.58.51:155][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0012.29] Compile of VehicleBlueprint successful, but with 2 Warning(s) [in 56 ms]
+[2016.03.05-19.58.51:155][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0012.29] Compile of VehicleBlueprint successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.05-19.58.51:155][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0012.29] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 0 ms]
+[2016.03.05-19.58.51:274][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.05-19.58.51:274][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.05-19.58.51:285][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0012.42] Compile of VehicleBlueprint successful, but with 2 Warning(s) [in 63 ms]
+[2016.03.05-19.58.51:285][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0012.42] Compile of VehicleBlueprint successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.05-19.58.54:579][  0]LogAIModule: Creating AISystem for world AdvancedVehicleExamplemap
+[2016.03.05-19.58.55:060][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.05-19.58.55:985][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.05-19.58.56:043][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.529ms to complete.
+[2016.03.05-19.58.56:043][  0]LogFileHelpers: Loading map 'AdvancedVehicleExamplemap' took 6.954
+[2016.03.05-19.58.56:236][  0]LogCollectionManager: Loaded 0 collections in 0.002411 seconds
+[2016.03.05-19.58.56:246][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 1792 classes and 301 folders.
+[2016.03.05-19.58.56:360][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.05-19.58.56:771][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.05-19.58.56:792][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.03.05-19.58.56:971][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.05-19.58.56:972][  0]LogD3D11RHI: InitD3DDevice
+[2016.03.05-19.58.56:975][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.05-19.58.56:997][  0]LogLoad: Full Startup: 18.13 seconds (BP compile: 0.99 seconds)
+[2016.03.05-19.58.57:127][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.05-19.58.57:170][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.05-19.58.57:561][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.03.05-19.58.57:636][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.05-19.58.57:637][  1]Cmd: UpdateLandscapeEditorData
+[2016.03.05-19.58.58:112][  8]LogD3D11RHI: InitD3DDevice
+[2016.03.05-19.58.58:203][ 10]LogAssetRegistry: Asset discovery search completed in 10.4957 seconds
+[2016.03.05-20.01.22:903][ 48]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.29:178][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.05-20.01.29:179][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2016.03.05-20.01.29:386][471]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.30:438][471]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.30:444][471]LightingResults: New page: Lighting Build
+[2016.03.05-20.01.30:450][471]MapCheck: New page: Map Check
+[2016.03.05-20.01.30:450][471]LightingResults: New page: Lighting Build
+[2016.03.05-20.01.30:470][471]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A035D6DE0
+[2016.03.05-20.01.30:553][471]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.05-20.01.30:567][471]LoadErrors: New page: New Map
+[2016.03.05-20.01.30:662][471]LogAIModule: Creating AISystem for world AdvancedVehicleExamplemap
+[2016.03.05-20.01.31:659][471]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_29) Specifying a world, but an Owner Actor found, and InWorld is not GetOwner()->GetWorld()
+[2016.03.05-20.01.31:659][471]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_21) Specifying a world, but an Owner Actor found, and InWorld is not GetOwner()->GetWorld()
+[2016.03.05-20.01.31:659][471]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.VehicleBlueprint_321.StaticMeshComponent_30) Specifying a world, but an Owner Actor found, and InWorld is not GetOwner()->GetWorld()
+[2016.03.05-20.01.31:659][471]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.VehicleBlueprint_321.DrawFrustumComponent_22) Specifying a world, but an Owner Actor found, and InWorld is not GetOwner()->GetWorld()
+[2016.03.05-20.01.31:659][471]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.VehicleBlueprint_321.StaticMeshComponent_31) Specifying a world, but an Owner Actor found, and InWorld is not GetOwner()->GetWorld()
+[2016.03.05-20.01.31:659][471]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.VehicleBlueprint_321.DrawFrustumComponent_23) Specifying a world, but an Owner Actor found, and InWorld is not GetOwner()->GetWorld()
+[2016.03.05-20.01.31:903][471]LogAudio:Warning: Detected orphaned looping sound 'Engine_Loop_Cue'.
+[2016.03.05-20.01.31:907][472]Cmd: UpdateLandscapeEditorData
+[2016.03.05-20.01.31:907][472]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.05-20.01.32:516][543]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.33:341][640]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.34:460][772]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.40:846][479]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.43:585][770]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.51:565][689]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.01.51:962][689]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2016.03.05-20.01.51:962][689]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.03.05-20.01.51:982][689]LogBlueprint:Warning: [compiler NewMap] Warning [0193.12] Compile of NewMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 59 ms]
+[2016.03.05-20.01.51:983][689]LogBlueprint:Warning: [compiler NewMap] Warning [0193.12] Compile of NewMap failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.05-20.01.51:983][689]LogBlueprint:Warning: [compiler NewMap] Warning [0193.12] Compile of NewMap failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.05-20.01.52:031][689]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2016.03.05-20.01.52:031][689]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.03.05-20.01.52:052][689]LogBlueprint:Warning: [compiler NewMap] Warning [0193.19] Compile of NewMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 60 ms]
+[2016.03.05-20.01.52:053][689]LogBlueprint:Warning: [compiler NewMap] Warning [0193.19] Compile of NewMap failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.05-20.01.58:341][689]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-20.01.58:359][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.05-20.01.58:360][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2016.03.05-20.01.58:430][689]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.08:904][689]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.12:382][690]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.05-20.02.14:267][915]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.14:315][915]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.17:656][915]Cmd: MAP LOAD FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.05-20.02.17:657][915]LightingResults: New page: Lighting Build
+[2016.03.05-20.02.17:681][915]LoadErrors: New page: Loading map: NewMap.umap
+[2016.03.05-20.02.17:681][915]MapCheck: New page: Map Check
+[2016.03.05-20.02.17:681][915]LightingResults: New page: Lighting Build
+[2016.03.05-20.02.17:714][915]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A6EE1EFC0
+[2016.03.05-20.02.18:084][915]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2016.03.05-20.02.18:084][915]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.03.05-20.02.18:105][915]LogBlueprint:Warning: [compiler NewMap] Warning [0219.24] Compile of NewMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 59 ms]
+[2016.03.05-20.02.18:105][915]LogBlueprint:Warning: [compiler NewMap] Warning [0219.24] Compile of NewMap failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.05-20.02.18:105][915]LogBlueprint:Warning: [compiler NewMap] Warning [0219.24] Compile of NewMap failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.05-20.02.18:153][915]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2016.03.05-20.02.18:153][915]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.03.05-20.02.18:175][915]LogBlueprint:Warning: [compiler NewMap] Warning [0219.31] Compile of NewMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 60 ms]
+[2016.03.05-20.02.18:175][915]LogBlueprint:Warning: [compiler NewMap] Warning [0219.31] Compile of NewMap failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.05-20.02.18:457][915]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-20.02.20:861][915]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.05-20.02.21:031][915]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.05-20.02.21:094][915]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.472ms to complete.
+[2016.03.05-20.02.21:095][915]LogFileHelpers: Loading map 'NewMap' took 3.440
+[2016.03.05-20.02.21:183][915]LogAudio:Warning: Detected orphaned looping sound 'Engine_Loop_Cue'.
+[2016.03.05-20.02.21:191][916]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.05-20.02.21:192][916]Cmd: UpdateLandscapeEditorData
+[2016.03.05-20.02.32:723][853]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-20.02.32:723][853]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-20.02.32:776][853]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2016.03.05-20.02.32:777][853]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.03.05-20.02.32:862][853]LogBlueprint:Warning: [compiler NewMap] Warning [0234.00] Compile of NewMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 125 ms]
+[2016.03.05-20.02.32:862][853]LogBlueprint:Warning: [compiler NewMap] Warning [0234.00] Compile of NewMap failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.05-20.02.32:862][853]LogBlueprint:Warning: [compiler NewMap] Warning [0234.00] Compile of NewMap failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.05-20.02.32:862][853]LogBlueprint:Warning: [compiler NewMap] Warning [0234.00] Compile of NewMap failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.03.05-20.02.32:862][853]LogBlueprint:Warning: [compiler NewMap] Warning [0234.00] Compile of NewMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.03.05-20.02.32:862][853]LogBlueprint:Warning: [compiler NewMap] Warning [0234.00] Compile of NewMap failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.03.05-20.02.32:864][853]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.05-20.02.32:865][853]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2016.03.05-20.02.32:932][853]LogPlayLevel: PIE:  Blueprint regeneration took 209 ms (1 blueprints)
+[2016.03.05-20.02.32:945][853]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.37:193][853]BlueprintLog: Info Blueprint NewMap failed to compile
+[2016.03.05-20.02.37:293][853]PIE: New page: PIE session: NewMap (Mar 5, 2016, 8:02:37 AM)
+[2016.03.05-20.02.37:293][853]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-20.02.37:561][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.268187s)
+[2016.03.05-20.02.37:562][853]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-20.02.37:563][853]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2016.03.05-20.02.37:563][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.269721s)
+[2016.03.05-20.02.37:600][853]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-20.02.37:608][853]LogInit: FAudioDevice initialized.
+[2016.03.05-20.02.37:691][853]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-20.02.37:728][853]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-14.02.37
+[2016.03.05-20.02.37:728][853]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-20.02.37:729][853]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-20.02.37:731][853]LogWorld: Bringing up level for play took: 0.032643
+[2016.03.05-20.02.37:732][853]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 5.736
+[2016.03.05-20.02.42:121][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A679BF920
+[2016.03.05-20.02.44:278][615]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.44:907][686]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.46:461][851]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.46:494][851]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.02.46:525][851]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.05-20.02.46:655][851]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.05-20.02.50:064][ 28]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.03.34:123][159]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.03.37:247][519]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.03.50:870][148]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.03.51:461][211]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.06.25:747][  6]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.06.52:858][154]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.06.56:284][559]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.07.12:786][529]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.07.33:018][919]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.12.15:129][202]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.12.24:130][229]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.12.24:270][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.05-20.12.24:270][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2016.03.05-20.12.24:354][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-20.12.25:870][229]LogSavePackage: Save=1455.072632ms
+[2016.03.05-20.12.25:870][229]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto1C2D1E44245E524D0CE2D53AF12FE45BB.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2016.03.05-20.12.25:874][229]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.604
+[2016.03.05-20.12.25:874][229]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.604
+[2016.03.05-20.43.08:810][527]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.43.09:489][578]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.43.28:671][861]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.43.33:182][399]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.43.53:509][192]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.44.02:507][219]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.44.02:686][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-20.44.02:777][219]LogBlueprint:Error: [compiler NewMap] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.03.05-20.44.02:892][219]LogBlueprint:Warning: [compiler NewMap] Warning [2724.03] Compile of NewMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 154 ms]
+[2016.03.05-20.44.02:893][219]LogBlueprint:Warning: [compiler NewMap] Warning [2724.03] Compile of NewMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.05-20.44.02:893][219]LogBlueprint:Warning: [compiler NewMap] Warning [2724.03] Compile of NewMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.05-20.44.02:893][219]LogBlueprint:Warning: [compiler NewMap] Warning [2724.03] Compile of NewMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.03.05-20.44.02:905][219]LogBlueprint:Warning: [compiler NewMap] Warning [2724.04] Compile of NewMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 11 ms]
+[2016.03.05-20.44.02:905][219]LogBlueprint:Warning: [compiler NewMap] Warning [2724.04] Compile of NewMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.03.05-20.44.04:206][219]LogSavePackage: Save=1481.702026ms
+[2016.03.05-20.44.04:206][219]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto23B5A5D3843379BACA1C4D3AD1DE31E50.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2016.03.05-20.44.04:209][219]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.595
+[2016.03.05-20.44.04:209][219]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.595
+[2016.03.05-20.45.54:595][ 75]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.47.00:531][432]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.47.01:200][482]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.48.34:866][952]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.48.35:494][996]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.48.54:664][183]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.48.57:962][574]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.03:590][239]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.14:004][480]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.28:756][238]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.29:325][275]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.41:628][655]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.43:140][806]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.45:878][127]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.51:784][825]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.49.58:485][621]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.52.09:865][ 48]LogEditorTransaction: Undo Delete current selection
+[2016.03.05-20.52.09:914][ 48]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.52.10:078][ 64]LogEditorTransaction: Undo Change Enum Pin Value
+[2016.03.05-20.52.41:719][824]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.52.42:242][856]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.52.49:309][599]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.53.05:344][509]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.53.13:107][438]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.53.17:004][895]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.53.19:646][205]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.53.34:646][  1]BlueprintLog: New page: Compile NewMap
+[2016.03.05-20.53.34:846][  1]BlueprintEditorCompileResults: Info [3295.98] Compile of NewMap successful! [in 199 ms]
+[2016.03.05-20.53.55:499][956]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.54.04:501][983]LogD3D11RHI: InitD3DDevice
+[2016.03.05-20.54.04:674][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-20.54.06:123][983]LogSavePackage: Save=1416.053101ms
+[2016.03.05-20.54.06:123][983]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto34C99173246485759E62C0A946CE0562D.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2016.03.05-20.54.06:127][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.518
+[2016.03.05-20.54.06:127][983]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.518
+[2016.03.05-20.56.06:696][390]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.01.02:563][475]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.01.08:299][149]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.01.20:032][537]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.01.57:515][938]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.01.58:181][979]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.03.04:348][527]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.03.08:063][964]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.03.13:690][626]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1591.EdGraphPin_28283''
+[2016.03.05-21.03.15:753][863]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.03.23:151][706]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.03.34:583][ 29]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.03.35:257][ 72]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.03.50:556][726]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.03.58:922][695]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.04.04:230][308]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.04.04:422][308]BlueprintEditorCompileResults: Info [3925.56] Compile of NewMap successful! [in 191 ms]
+[2016.03.05-21.04.07:186][630]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.04.07:204][630]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.04.07:381][630]LogPlayLevel: PIE:  Blueprint regeneration took 195 ms (1 blueprints)
+[2016.03.05-21.04.07:381][630]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:04:07 AM)
+[2016.03.05-21.04.07:382][630]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.04.07:665][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.283417s)
+[2016.03.05-21.04.07:665][630]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.04.07:666][630]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2016.03.05-21.04.07:666][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.284902s)
+[2016.03.05-21.04.07:725][630]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.04.07:732][630]LogInit: FAudioDevice initialized.
+[2016.03.05-21.04.07:766][630]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.04.07:802][630]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.04.07
+[2016.03.05-21.04.07:802][630]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.04.07:802][630]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.04.07:804][630]LogWorld: Bringing up level for play took: 0.030676
+[2016.03.05-21.04.07:805][630]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.192
+[2016.03.05-21.04.12:111][141]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:119][142]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:135][144]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:144][145]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:160][147]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:169][148]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:177][149]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:186][150]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:195][151]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:714][213]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:722][214]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:731][215]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:739][216]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:747][217]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:772][220]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:781][221]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:831][227]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:865][231]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.12:900][235]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:924][238]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:933][239]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:942][240]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:949][241]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:958][242]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:966][243]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:974][244]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:983][245]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.12:991][246]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:000][247]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:008][248]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:016][249]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:024][250]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:032][251]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:041][252]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:049][253]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:058][254]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:066][255]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:074][256]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:082][257]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:091][258]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:100][259]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:108][260]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:117][261]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:125][262]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:133][263]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:142][264]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:150][265]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:158][266]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:167][267]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:175][268]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:183][269]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:192][270]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:203][271]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:211][272]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:219][273]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:227][274]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:236][275]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:244][276]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:261][278]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:269][279]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:303][283]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:311][284]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:320][285]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:328][286]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:345][288]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:395][294]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:412][296]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:428][298]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:445][300]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:454][301]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:470][303]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:478][304]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:495][306]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:512][308]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:555][313]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:580][316]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:607][319]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:623][321]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:640][323]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:657][325]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:691][329]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:699][330]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:733][334]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:741][335]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:768][338]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:793][341]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:803][342]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:803][342]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:811][343]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:811][343]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:820][344]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:820][344]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:828][345]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:828][345]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:837][346]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:837][346]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:845][347]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:845][347]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:853][348]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:853][348]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:870][350]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:870][350]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:887][352]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:888][352]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:897][353]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:897][353]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:906][354]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:906][354]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:915][355]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:915][355]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:923][356]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:923][356]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:932][357]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:932][357]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:940][358]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:940][358]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:940][358]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:974][362]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:983][363]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:983][363]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.13:991][364]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.13:991][364]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:000][365]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:008][366]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:016][367]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:025][368]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:025][368]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:059][372]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:059][372]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:067][373]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:067][373]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:076][374]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:076][374]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:084][375]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:084][375]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:101][377]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:143][382]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:159][384]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:177][386]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:185][387]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:194][388]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:203][389]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:203][389]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:219][391]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:228][392]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:236][393]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:244][394]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:244][394]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:253][395]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:261][396]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:269][397]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:277][398]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:277][398]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:286][399]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:286][399]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:286][399]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.04.14:313][402]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:347][406]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:355][407]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:364][408]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.14:372][409]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.18:911][952]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.18:927][954]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.18:944][956]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.18:961][958]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.18:978][960]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.18:995][962]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.19:020][965]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.19:037][967]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.19:078][972]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.19:087][973]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.19:103][975]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.04.27:400][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A3C92E8E0
+[2016.03.05-21.04.35:996][975]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.04.42:205][714]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.04.42:371][714]BlueprintEditorCompileResults: Info [3963.50] Compile of NewMap successful! [in 166 ms]
+[2016.03.05-21.04.44:478][963]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.04.44:494][963]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.04.44:668][963]LogPlayLevel: PIE:  Blueprint regeneration took 189 ms (1 blueprints)
+[2016.03.05-21.04.44:668][963]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:04:44 AM)
+[2016.03.05-21.04.44:669][963]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.04.44:928][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.258965s)
+[2016.03.05-21.04.44:929][963]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.04.44:930][963]LogPlayLevel: PIE: World Init took: (0.001770s)
+[2016.03.05-21.04.44:930][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.261006s)
+[2016.03.05-21.04.44:991][963]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.04.44:998][963]LogInit: FAudioDevice initialized.
+[2016.03.05-21.04.45:034][963]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.04.45:071][963]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.04.45
+[2016.03.05-21.04.45:071][963]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.04.45:072][963]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.04.45:073][963]LogWorld: Bringing up level for play took: 0.032339
+[2016.03.05-21.04.45:075][963]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 1.077
+[2016.03.05-21.04.56:043][260]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A12B102C0
+[2016.03.05-21.05.01:358][894]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.05.01:369][894]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.05.01:541][894]LogPlayLevel: PIE:  Blueprint regeneration took 182 ms (1 blueprints)
+[2016.03.05-21.05.01:541][894]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:05:01 AM)
+[2016.03.05-21.05.01:541][894]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.05.01:790][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.249111s)
+[2016.03.05-21.05.01:791][894]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.05.01:792][894]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2016.03.05-21.05.01:792][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.250765s)
+[2016.03.05-21.05.01:851][894]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.05.01:858][894]LogInit: FAudioDevice initialized.
+[2016.03.05-21.05.01:893][894]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.05.01:931][894]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.05.01
+[2016.03.05-21.05.01:931][894]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.05.01:932][894]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.05.01:933][894]LogWorld: Bringing up level for play took: 0.032070
+[2016.03.05-21.05.01:935][894]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.062
+[2016.03.05-21.05.07:828][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A6AE51260
+[2016.03.05-21.05.34:615][772]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.05.44:251][925]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.05.44:422][925]BlueprintEditorCompileResults: Info [4025.56] Compile of NewMap successful! [in 171 ms]
+[2016.03.05-21.05.46:631][184]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.05.46:647][184]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.05.46:820][184]LogPlayLevel: PIE:  Blueprint regeneration took 188 ms (1 blueprints)
+[2016.03.05-21.05.46:820][184]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:05:46 AM)
+[2016.03.05-21.05.46:821][184]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.05.47:082][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.261036s)
+[2016.03.05-21.05.47:083][184]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.05.47:083][184]LogPlayLevel: PIE: World Init took: (0.001442s)
+[2016.03.05-21.05.47:083][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.262697s)
+[2016.03.05-21.05.47:144][184]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.05.47:151][184]LogInit: FAudioDevice initialized.
+[2016.03.05-21.05.47:187][184]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.05.47:225][184]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.05.47
+[2016.03.05-21.05.47:225][184]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.05.47:225][184]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.05.47:227][184]LogWorld: Bringing up level for play took: 0.031400
+[2016.03.05-21.05.47:228][184]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 1.231
+[2016.03.05-21.05.53:376][916]LogSelection:Warning: PIE object was selected: "FirstPersonCharacter_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730"
+[2016.03.05-21.05.57:284][299]LogSelection:Warning: PIE object was selected: "FirstPersonCharacter_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730"
+[2016.03.05-21.06.01:994][575]LogSelection:Warning: PIE object was selected: "VehicleBlueprint_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.VehicleBlueprint_C_1"
+[2016.03.05-21.06.18:294][491]LogSelection:Warning: PIE object was selected: "FirstPersonCharacter_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730"
+[2016.03.05-21.06.26:364][963]LogSelection:Warning: PIE object was selected: "VehicleBlueprint_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.VehicleBlueprint_C_1"
+[2016.03.05-21.07.03:559][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A69DDD260
+[2016.03.05-21.07.19:733][261]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.07.28:736][288]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.07.28:901][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-21.07.30:340][288]LogSavePackage: Save=1405.258301ms
+[2016.03.05-21.07.30:340][288]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto4163B4090420192CBED91E2AA1EC64CD5.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2016.03.05-21.07.30:344][288]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.500
+[2016.03.05-21.07.30:344][288]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.500
+[2016.03.05-21.08.39:717][497]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.08.53:713][144]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.08.53:888][144]BlueprintEditorCompileResults: Info [4215.02] Compile of NewMap successful! [in 175 ms]
+[2016.03.05-21.08.56:457][440]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.08.56:472][440]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.08.56:643][440]LogPlayLevel: PIE:  Blueprint regeneration took 187 ms (1 blueprints)
+[2016.03.05-21.08.56:644][440]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:08:56 AM)
+[2016.03.05-21.08.56:644][440]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.08.56:923][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.278844s)
+[2016.03.05-21.08.56:924][440]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.08.56:924][440]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2016.03.05-21.08.56:925][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.280582s)
+[2016.03.05-21.08.56:986][440]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.08.56:993][440]LogInit: FAudioDevice initialized.
+[2016.03.05-21.08.57:026][440]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.08.57:062][440]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.08.57
+[2016.03.05-21.08.57:063][440]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.08.57:063][440]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.08.57:065][440]LogWorld: Bringing up level for play took: 0.031661
+[2016.03.05-21.08.57:066][440]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 1.069
+[2016.03.05-21.09.06:390][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A122D85E0
+[2016.03.05-21.09.21:393][309]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.09.28:772][189]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.09.28:934][189]BlueprintEditorCompileResults: Info [4250.07] Compile of NewMap successful! [in 161 ms]
+[2016.03.05-21.09.36:130][ 47]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.09.36:301][ 47]BlueprintEditorCompileResults: Info [4257.43] Compile of NewMap successful! [in 171 ms]
+[2016.03.05-21.09.38:031][249]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.09.38:047][249]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.09.38:217][249]LogPlayLevel: PIE:  Blueprint regeneration took 185 ms (1 blueprints)
+[2016.03.05-21.09.38:217][249]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:09:38 AM)
+[2016.03.05-21.09.38:218][249]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.09.38:502][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.284249s)
+[2016.03.05-21.09.38:503][249]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.09.38:504][249]LogPlayLevel: PIE: World Init took: (0.001418s)
+[2016.03.05-21.09.38:504][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.285878s)
+[2016.03.05-21.09.38:565][249]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.09.38:571][249]LogInit: FAudioDevice initialized.
+[2016.03.05-21.09.38:610][249]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.09.38:645][249]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.09.38
+[2016.03.05-21.09.38:645][249]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.09.38:645][249]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.09.38:648][249]LogWorld: Bringing up level for play took: 0.030509
+[2016.03.05-21.09.38:649][249]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.651
+[2016.03.05-21.09.44:917][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A13336DE0
+[2016.03.05-21.10.00:177][803]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.10.08:456][795]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.10.08:616][795]BlueprintEditorCompileResults: Info [4289.75] Compile of NewMap successful! [in 159 ms]
+[2016.03.05-21.10.11:239][106]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.10.11:256][106]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.10.11:421][106]LogPlayLevel: PIE:  Blueprint regeneration took 181 ms (1 blueprints)
+[2016.03.05-21.10.11:421][106]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:10:11 AM)
+[2016.03.05-21.10.11:422][106]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.10.11:697][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.274841s)
+[2016.03.05-21.10.11:697][106]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.10.11:698][106]LogPlayLevel: PIE: World Init took: (0.001349s)
+[2016.03.05-21.10.11:698][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.276391s)
+[2016.03.05-21.10.11:756][106]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.10.11:763][106]LogInit: FAudioDevice initialized.
+[2016.03.05-21.10.11:800][106]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.10.11:837][106]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.10.11
+[2016.03.05-21.10.11:837][106]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.10.11:837][106]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.10.11:839][106]LogWorld: Bringing up level for play took: 0.032069
+[2016.03.05-21.10.11:840][106]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.157
+[2016.03.05-21.10.15:018][483]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.16:935][711]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.16:985][717]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.23:526][499]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:551][502]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:560][503]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:568][504]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:576][505]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:584][506]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:593][507]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:601][508]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:610][509]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:618][510]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:626][511]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:634][512]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:643][513]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:651][514]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:659][515]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:668][516]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:676][517]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:684][518]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:693][519]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:701][520]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:710][521]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:718][522]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:726][523]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:734][524]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:743][525]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:751][526]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:759][527]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:768][528]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:776][529]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:784][530]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:793][531]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:801][532]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:809][533]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:817][534]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:826][535]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:834][536]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:842][537]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:851][538]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:859][539]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:868][540]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:876][541]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:884][542]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.23:893][543]LogCharacterMovement: FirstPersonCharacter_730 is stuck and failed to move!
+[2016.03.05-21.10.30:629][296]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.03.05-21.10.30:629][296]LogSelection:Warning: PIE object was selected: "Landscape /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.Landscape_0"
+[2016.03.05-21.10.33:871][582]LogSelection:Warning: PIE object was selected: "VehicleBlueprint_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.VehicleBlueprint_C_1"
+[2016.03.05-21.10.43:827][712]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:835][713]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:843][714]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:852][715]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:860][716]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:869][717]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:877][718]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:885][719]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:894][720]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:904][721]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:912][722]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:920][723]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:928][724]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:937][725]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:945][726]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:953][727]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:962][728]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:970][729]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:978][730]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:986][731]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.43:995][732]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:003][733]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:012][734]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:020][735]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:028][736]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:037][737]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:045][738]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:053][739]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:061][740]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:069][741]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:078][742]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:086][743]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:094][744]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:103][745]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:111][746]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:120][747]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:128][748]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:137][749]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:145][750]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:153][751]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:162][752]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:170][753]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:178][754]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:187][755]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:196][756]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:205][757]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:214][758]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:221][759]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:230][760]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:237][761]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:247][762]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:255][763]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:264][764]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:272][765]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:280][766]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:288][767]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:296][768]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:304][769]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:314][770]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:321][771]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:330][772]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:338][773]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:347][774]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:355][775]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:364][776]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:371][777]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:380][778]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:388][779]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:397][780]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:405][781]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:413][782]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:421][783]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:430][784]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:437][785]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:447][786]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:455][787]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:463][788]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:471][789]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:480][790]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:488][791]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:496][792]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:504][793]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:514][794]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:522][795]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:530][796]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:538][797]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:546][798]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:555][799]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:563][800]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:571][801]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:580][802]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:588][803]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:596][804]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:604][805]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:613][806]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:621][807]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:630][808]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:637][809]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:646][810]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:655][811]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:663][812]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:671][813]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:680][814]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:688][815]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:697][816]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:704][817]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:713][818]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:721][819]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:730][820]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:738][821]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:747][822]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:754][823]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:763][824]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:771][825]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:780][826]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:788][827]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:796][828]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:805][829]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:813][830]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:821][831]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:830][832]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:838][833]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:846][834]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:854][835]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:863][836]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:871][837]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:880][838]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:888][839]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:898][840]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:906][841]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:915][842]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:923][843]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:931][844]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:939][845]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:948][846]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:956][847]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:965][848]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:973][849]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:981][850]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:990][851]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.44:998][852]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:006][853]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:015][854]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:024][855]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:032][856]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:040][857]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:048][858]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:057][859]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:065][860]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:073][861]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:082][862]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:090][863]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:098][864]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:107][865]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:115][866]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:123][867]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:139][869]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.10.45:299][888]PIE:Warning: Warning VehicleBlueprint_C_1.VehicleMesh Vehicle_SkelMesh has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2016.03.05-21.11.07:103][474]LogSelection:Warning: PIE object was selected: "VehicleBlueprint_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.VehicleBlueprint_C_1"
+[2016.03.05-21.11.15:214][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A11DF3380
+[2016.03.05-21.11.35:333][572]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.06:110][258]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.06:187][258]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.15:313][346]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.17:210][572]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.20:465][961]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.23:835][363]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.27:566][806]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.33:221][452]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.57:088][311]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.12.58:460][473]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.13.01:796][843]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.13.26:718][799]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.16.33:321][414]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.18.42:389][754]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.18.51:389][781]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.18.51:568][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-21.18.53:003][781]LogSavePackage: Save=1401.458252ms
+[2016.03.05-21.18.53:003][781]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto5BF518E764D15865F2743588C715EE000.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto5.umap'
+[2016.03.05-21.18.53:007][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.495
+[2016.03.05-21.18.53:007][781]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.495
+[2016.03.05-21.19.07:952][826]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.31.20:129][126]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.31.20:147][126]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.31.20:340][126]LogPlayLevel: PIE:  Blueprint regeneration took 210 ms (1 blueprints)
+[2016.03.05-21.31.20:341][126]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:31:20 AM)
+[2016.03.05-21.31.20:341][126]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.31.20:631][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.290345s)
+[2016.03.05-21.31.20:632][126]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.31.20:633][126]LogPlayLevel: PIE: World Init took: (0.001750s)
+[2016.03.05-21.31.20:633][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.292302s)
+[2016.03.05-21.31.20:720][126]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.31.20:727][126]LogInit: FAudioDevice initialized.
+[2016.03.05-21.31.20:762][126]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.31.20:797][126]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.31.20
+[2016.03.05-21.31.20:798][126]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.31.20:798][126]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.31.20:800][126]LogWorld: Bringing up level for play took: 0.031039
+[2016.03.05-21.31.20:801][126]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.804
+[2016.03.05-21.31.27:661][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A1159E020
+[2016.03.05-21.31.43:390][510]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.31.52:389][537]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.31.52:557][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-21.31.53:963][537]LogSavePackage: Save=1374.318726ms
+[2016.03.05-21.31.53:963][537]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto69ED703A9421186698734FE9A8FC128EE.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto6.umap'
+[2016.03.05-21.31.53:968][537]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.472
+[2016.03.05-21.31.53:968][537]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.472
+[2016.03.05-21.32.32:520][156]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.32.35:555][446]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.32.35:729][446]BlueprintEditorCompileResults: Info [5636.86] Compile of NewMap successful! [in 173 ms]
+[2016.03.05-21.32.37:673][660]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.32.37:687][660]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.32.37:859][660]LogPlayLevel: PIE:  Blueprint regeneration took 186 ms (1 blueprints)
+[2016.03.05-21.32.37:859][660]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:32:37 AM)
+[2016.03.05-21.32.37:859][660]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.32.38:131][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.272009s)
+[2016.03.05-21.32.38:132][660]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.32.38:133][660]LogPlayLevel: PIE: World Init took: (0.001618s)
+[2016.03.05-21.32.38:133][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.273848s)
+[2016.03.05-21.32.38:210][660]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.32.38:217][660]LogInit: FAudioDevice initialized.
+[2016.03.05-21.32.38:253][660]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.32.38:290][660]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.32.38
+[2016.03.05-21.32.38:290][660]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.32.38:291][660]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.32.38:293][660]LogWorld: Bringing up level for play took: 0.032958
+[2016.03.05-21.32.38:294][660]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.297
+[2016.03.05-21.32.41:492][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A128B1620
+[2016.03.05-21.32.52:146][182]BlueprintLog: New page: Compile NewMap
+[2016.03.05-21.32.52:314][182]BlueprintEditorCompileResults: Info [5653.45] Compile of NewMap successful! [in 167 ms]
+[2016.03.05-21.32.54:137][384]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.32.54:152][384]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.32.54:322][384]LogPlayLevel: PIE:  Blueprint regeneration took 185 ms (1 blueprints)
+[2016.03.05-21.32.54:322][384]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:32:54 AM)
+[2016.03.05-21.32.54:323][384]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.32.54:583][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.260935s)
+[2016.03.05-21.32.54:584][384]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.32.54:585][384]LogPlayLevel: PIE: World Init took: (0.001412s)
+[2016.03.05-21.32.54:585][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.262566s)
+[2016.03.05-21.32.54:674][384]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.32.54:681][384]LogInit: FAudioDevice initialized.
+[2016.03.05-21.32.54:717][384]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.32.54:752][384]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.32.54
+[2016.03.05-21.32.54:752][384]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.32.54:753][384]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.32.54:754][384]LogWorld: Bringing up level for play took: 0.030453
+[2016.03.05-21.32.54:756][384]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.759
+[2016.03.05-21.33.02:783][327]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A13360720
+[2016.03.05-21.33.46:942][539]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.39.36:241][ 52]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-21.39.36:256][ 52]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-21.39.36:422][ 52]LogPlayLevel: PIE:  Blueprint regeneration took 181 ms (1 blueprints)
+[2016.03.05-21.39.36:423][ 52]PIE: New page: PIE session: NewMap (Mar 5, 2016, 9:39:36 AM)
+[2016.03.05-21.39.36:423][ 52]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-21.39.36:703][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.279591s)
+[2016.03.05-21.39.36:704][ 52]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-21.39.36:704][ 52]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2016.03.05-21.39.36:704][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.281280s)
+[2016.03.05-21.39.36:790][ 52]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-21.39.36:796][ 52]LogInit: FAudioDevice initialized.
+[2016.03.05-21.39.36:832][ 52]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-21.39.36:868][ 52]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-15.39.36
+[2016.03.05-21.39.36:868][ 52]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.39.36:868][ 52]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-21.39.36:870][ 52]LogWorld: Bringing up level for play took: 0.031613
+[2016.03.05-21.39.36:871][ 52]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.874
+[2016.03.05-21.39.42:431][713]LogScript:Warning: Accessed None 'CallFunc_BreakHitResult_HitComponent'
+	FirstPersonCharacter_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0473
+[2016.03.05-21.39.42:431][713]PIE:Error: Error Accessed None 'CallFunc_BreakHitResult_HitComponent' from node Branch in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.03.05-21.39.53:691][ 62]LogSelection:Warning: PIE object was selected: "VehicleBlueprint_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.VehicleBlueprint_C_1"
+[2016.03.05-21.39.57:984][545]LogSelection:Warning: PIE object was selected: "FirstPersonCharacter_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730"
+[2016.03.05-21.41.01:374][662]LogSelection:Warning: PIE object was selected: "CapsuleComponent /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730.CollisionCylinder"
+[2016.03.05-21.41.03:783][890]LogSelection:Warning: PIE object was selected: "SkeletalMeshComponent /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730.CharacterMesh0"
+[2016.03.05-21.41.27:829][152]LogSelection:Warning: PIE object was selected: "SkeletalMeshComponent /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730.Mesh1P"
+[2016.03.05-21.41.32:129][557]LogSelection:Warning: PIE object was selected: "SkeletalMeshComponent /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730.Mesh1P"
+[2016.03.05-21.41.32:616][604]LogSelection:Warning: PIE object was selected: "SkeletalMeshComponent /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.FirstPersonCharacter_730.Mesh1P"
+[2016.03.05-21.41.46:868][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A13362660
+[2016.03.05-21.41.46:868][ 82]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.44.08:331][915]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.44.17:331][942]LogD3D11RHI: InitD3DDevice
+[2016.03.05-21.44.17:512][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-21.44.18:967][942]LogSavePackage: Save=1421.448608ms
+[2016.03.05-21.44.18:967][942]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto7DADEAEAF493DC027185DC5B2EB81CBBF.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto7.umap'
+[2016.03.05-21.44.18:971][942]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.515
+[2016.03.05-21.44.18:971][942]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.515
+[2016.03.05-22.19.08:595][475]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.19.17:802][576]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.19.37:550][939]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.19.38:189][985]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.20.18:975][835]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.20.18:982][835]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.05-22.20.39:440][264]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.20.42:907][676]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.20.45:974][ 42]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.20.46:452][ 92]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.20.48:905][382]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.20.58:205][492]BlueprintLog: New page: Compile NewMap
+[2016.03.05-22.20.58:382][492]BlueprintEditorCompileResults: Info [8539.52] Compile of NewMap successful! [in 176 ms]
+[2016.03.05-22.21.14:105][ 45]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-22.21.14:121][ 45]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-22.21.14:295][ 45]LogPlayLevel: PIE:  Blueprint regeneration took 190 ms (1 blueprints)
+[2016.03.05-22.21.14:295][ 45]PIE: New page: PIE session: NewMap (Mar 5, 2016, 10:21:14 AM)
+[2016.03.05-22.21.14:295][ 45]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-22.21.14:588][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.292349s)
+[2016.03.05-22.21.14:589][ 45]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-22.21.14:590][ 45]LogPlayLevel: PIE: World Init took: (0.001919s)
+[2016.03.05-22.21.14:590][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.294474s)
+[2016.03.05-22.21.14:674][ 45]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-22.21.14:681][ 45]LogInit: FAudioDevice initialized.
+[2016.03.05-22.21.14:718][ 45]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-22.21.14:754][ 45]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-16.21.14
+[2016.03.05-22.21.14:755][ 45]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-22.21.14:755][ 45]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-22.21.14:757][ 45]LogWorld: Bringing up level for play took: 0.032083
+[2016.03.05-22.21.14:758][ 45]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.761
+[2016.03.05-22.21.28:080][638]LogSelection:Warning: PIE object was selected: "VehicleBlueprint_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.VehicleBlueprint_C_1"
+[2016.03.05-22.21.34:012][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A12EAD3A0
+[2016.03.05-22.21.42:227][110]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.21.47:656][756]BlueprintLog: New page: Compile NewMap
+[2016.03.05-22.21.47:821][756]BlueprintEditorCompileResults: Info [8588.95] Compile of NewMap successful! [in 164 ms]
+[2016.03.05-22.21.49:957][999]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.05-22.21.49:972][999]LogPlayLevel: [PIE] Compiling NewMap before PIE...
+[2016.03.05-22.21.50:142][999]LogPlayLevel: PIE:  Blueprint regeneration took 185 ms (1 blueprints)
+[2016.03.05-22.21.50:142][999]PIE: New page: PIE session: NewMap (Mar 5, 2016, 10:21:50 AM)
+[2016.03.05-22.21.50:143][999]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.03.05-22.21.50:427][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.284085s)
+[2016.03.05-22.21.50:428][999]LogAIModule: Creating AISystem for world NewMap
+[2016.03.05-22.21.50:428][999]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2016.03.05-22.21.50:429][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.285793s)
+[2016.03.05-22.21.50:513][999]LogInit: XAudio2 using 'Headphones (SHARKK  SP-SK869TW Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.05-22.21.50:520][999]LogInit: FAudioDevice initialized.
+[2016.03.05-22.21.50:556][999]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2016.03.05-22.21.50:593][999]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.03.05-16.21.50
+[2016.03.05-22.21.50:593][999]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-22.21.50:593][999]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-22.21.50:595][999]LogWorld: Bringing up level for play took: 0.030888
+[2016.03.05-22.21.50:596][999]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.599
+[2016.03.05-22.21.56:056][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A12EAD120
+[2016.03.05-22.22.21:945][717]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.22.30:918][773]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.22.31:115][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-22.22.32:598][773]LogSavePackage: Save=1430.499756ms
+[2016.03.05-22.22.32:598][773]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto802BEBE70430509C45B818DB9C486C1AD.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto8.umap'
+[2016.03.05-22.22.32:602][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.545
+[2016.03.05-22.22.32:602][773]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.545
+[2016.03.05-22.32.43:175][313]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.32.43:288][322]LogActor:Warning: RecastNavMesh /Game/NewMap.NewMap:PersistentLevel.RecastNavMesh_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.05-22.33.21:234][640]PIE:Warning: Warning Scale ''X=-0.100 Y=-0.100 Z=-0.100'' is not valid on object '/Game/NewMap.NewMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0'.
+[2016.03.05-22.33.21:310][649]PIE:Warning: Warning Scale ''X=-0.100 Y=-0.100 Z=-0.100'' is not valid on object '/Game/NewMap.NewMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0'.
+[2016.03.05-22.33.21:368][656]PIE:Warning: Warning Scale ''X=-0.100 Y=-0.100 Z=-0.100'' is not valid on object '/Game/NewMap.NewMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0'.
+[2016.03.05-22.33.21:477][669]PIE:Warning: Warning Scale ''X=-0.100 Y=-0.100 Z=-0.100'' is not valid on object '/Game/NewMap.NewMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0'.
+[2016.03.05-22.33.21:561][679]PIE:Warning: Warning Scale ''X=-0.100 Y=-0.100 Z=-0.100'' is not valid on object '/Game/NewMap.NewMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0'.
+[2016.03.05-22.33.21:644][689]PIE:Warning: Warning Scale ''X=-0.100 Y=-0.100 Z=-0.100'' is not valid on object '/Game/NewMap.NewMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0'.
+[2016.03.05-22.33.21:736][700]PIE:Warning: Warning Scale ''X=-0.100 Y=-0.100 Z=-0.100'' is not valid on object '/Game/NewMap.NewMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0'.
+[2016.03.05-22.33.21:820][710]PIE:Warning: Warning Scale ''X=-0.100 Y=-0.100 Z=-0.100'' is not valid on object '/Game/NewMap.NewMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0'.
+[2016.03.05-22.33.49:868][787]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.34.02:515][198]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.34.20:420][640]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.34.29:421][667]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.34.29:545][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.05-22.34.29:545][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2016.03.05-22.34.29:609][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.05-22.34.31:101][667]LogSavePackage: Save=1458.955811ms
+[2016.03.05-22.34.31:101][667]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMap_Auto971837F9545F58C032AEB4B83F0471323.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/Autosaves/Game/NewMap_Auto9.umap'
+[2016.03.05-22.34.31:105][667]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.561
+[2016.03.05-22.34.31:105][667]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.561
+[2016.03.05-22.34.37:047][252]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.35.44:996][580]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.36.43:130][515]Cmd: TRANSACTION UNDO
+[2016.03.05-22.36.43:130][515]LogEditorTransaction: Undo Move Actors
+[2016.03.05-22.36.43:244][515]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.36.46:587][882]LogD3D11RHI: InitD3DDevice
+[2016.03.05-22.36.46:606][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.05-22.36.48:109][882]LogSavePackage: Save=1441.226440ms
+[2016.03.05-22.36.48:109][882]LogSavePackage: Moving '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Saved/NewMapADACBFE247ACEC52DF552F94B9E8A1AE.tmp' to '../../../../../../Users/gebha/Documents/GitHub/179-Midterm/Midterm/Content/NewMap.umap'
+[2016.03.05-22.36.54:924][211]Cmd: QUIT_EDITOR
+[2016.03.05-22.36.55:443][211]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.05-22.36.55:564][211]LogExit: Preparing to exit.
+[2016.03.05-22.36.56:693][211]LogExit: Editor shut down
+[2016.03.05-22.36.56:693][211]LogExit: Transaction tracking system shut down
+[2016.03.05-22.36.56:701][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A23D385E0
+[2016.03.05-22.36.56:702][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A23E94D60
+[2016.03.05-22.36.56:702][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A2AC88D60
+[2016.03.05-22.36.56:702][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A2AC882C0
+[2016.03.05-22.36.56:709][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A6AF17740
+[2016.03.05-22.36.56:711][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A69BEF880
+[2016.03.05-22.36.56:711][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A137B74C0
+[2016.03.05-22.36.56:927][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A47DF3CE0
+[2016.03.05-22.36.56:927][211]LogExit: Object subsystem successfully closed.
+[2016.03.05-22.36.56:943][211]LogD3D11RHI: Shutdown
+[2016.03.05-22.36.56:943][211]LogD3D11RHI: CleanupD3DDevice
+[2016.03.05-22.36.57:044][211]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.05-22.36.57:063][211]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (189)
+[2016.03.05-22.36.57:063][211]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2016.03.05-22.36.57:063][211]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2016.03.05-22.36.57:063][211]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2016.03.05-22.36.57:063][211]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2016.03.05-22.36.57:063][211]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2016.03.05-22.36.57:065][211]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2016.03.05-22.36.57:065][211]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2016.03.05-22.36.57:065][211]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2016.03.05-22.36.57:065][211]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2016.03.05-22.36.57:065][211]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2016.03.05-22.36.57:066][211]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2016.03.05-22.36.57:213][211]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2016.03.05-22.36.57:214][211]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2016.03.05-22.36.57:214][211]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2016.03.05-22.36.57:214][211]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2016.03.05-22.36.57:214][211]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2016.03.05-22.36.57:295][211]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2016.03.05-22.36.57:295][211]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2016.03.05-22.36.57:295][211]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2016.03.05-22.36.57:295][211]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2016.03.05-22.36.57:296][211]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2016.03.05-22.36.57:511][211]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2016.03.05-22.36.57:511][211]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2016.03.05-22.36.57:511][211]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2016.03.05-22.36.57:511][211]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2016.03.05-22.36.57:511][211]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2016.03.05-22.36.57:511][211]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2016.03.05-22.36.57:511][211]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2016.03.05-22.36.57:530][211]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2016.03.05-22.36.57:531][211]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2016.03.05-22.36.57:531][211]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2016.03.05-22.36.57:531][211]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2016.03.05-22.36.57:531][211]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2016.03.05-22.36.57:531][211]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2016.03.05-22.36.57:531][211]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2016.03.05-22.36.57:532][211]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2016.03.05-22.36.57:532][211]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2016.03.05-22.36.57:532][211]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2016.03.05-22.36.57:533][211]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.03.05-22.36.57:534][211]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.03.05-22.36.57:534][211]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2016.03.05-22.36.57:635][211]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2016.03.05-22.36.57:635][211]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module Media (77)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2016.03.05-22.36.57:638][211]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module Core (56)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2016.03.05-22.36.57:641][211]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2016.03.05-22.36.57:730][211]LogDerivedDataCache: Shutdown
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.03.05-22.36.57:730][211]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2016.03.05-22.36.57:731][211]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.03.05-22.36.57:731][211]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.03.05-22.36.57:731][211]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.03.05-22.36.57:731][211]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.03.05-22.36.57:731][211]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.05-22.36.57:739][211]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.05-22.36.57:740][211]LogExit: Exiting.
+[2016.03.05-22.36.57:756][211]Log file closed, 03/05/16 16:36:57
